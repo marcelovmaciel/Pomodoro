@@ -1,5 +1,1 @@
-using Pomodoro
-using Base.Test
-
-# write your own tests here
-@test 1 == 2
+using Pomodorousing Base.Test@testset "All Tests" begin  if ( endswith(pwd(), "/test") ) ; cd("..") ; end  Julz.include_all_files("$(pwd())/test")endreturn
