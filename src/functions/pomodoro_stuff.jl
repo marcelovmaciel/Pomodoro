@@ -4,7 +4,7 @@ const study_time = 25*60
 
 const break_times = (15 * 60, 5 * 60)
 
-function pomodoro_stuff( n_cycles::Int; cycle_time::Int = study_time, rest_times::Tuple = break_times)
+function pomodoro_stuff( n_cycles::Integer; cycle_time::Integer = study_time, rest_times::Tuple = break_times)
 
     times = 0
     long_rest, short_rest = rest_times
